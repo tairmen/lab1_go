@@ -5,6 +5,6 @@ import (
 )
 
 func main(){
-	// UnitTests(10)
-	testmatrix.Testing(100, 500, 100, 1)
+	testmatrix.UnitTests(5)
+	testmatrix.Testing(100, 1000, 100, 1)
 }

@@ -14,6 +14,7 @@ func RandGenerationMatrix(a [][] float64, ln int) [][] float64{
 			}
 		}
 		a = append(a, buf)
+		buf = nil
 	}
 	return a
 }
